@@ -1,0 +1,31 @@
+@import url(/style/head.css);
+@import url(/style/servico.css);
+@import url(/style/banner.css);
+@import url(/style/localizacao.css);
+@import url(/style/redeSociais.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+
+}
+:root{
+    --azul: rgb(0, 225, 255);
+}
+
+.categorias{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: var(white);
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}

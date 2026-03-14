@@ -1,0 +1,33 @@
+.telabanner{
+    height: 40rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image:linear-gradient(rgba(20, 139, 236, 0.774)), url(/imagens/bolhas.png);
+    background-size: cover;
+    
+}
+
+.banner{
+    height: 100%;
+    width: 70rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 5rem;
+    gap: 1rem;
+    
+    p{
+        font-size: 1rem;
+        padding: 0;
+    }
+}
+
+.imgDoBanner{
+    width: 50rem;
+    border-radius: 1rem;
+}
+
+
