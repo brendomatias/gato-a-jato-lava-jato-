@@ -50,8 +50,13 @@
 
 @media (max-width: 800px) {
     .ops{
-        height: 60%;
+        height: 18rem;
         padding: 1rem 0;
+        text-align: center;
+        p{
+            font-size: 0.7rem;
+            padding: 0 2rem;
+        }
     }
     .imagnsEndereço{
         width: 8rem !important;

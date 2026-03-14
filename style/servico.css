@@ -92,13 +92,8 @@
         display: grid;
         grid-template-columns: 1fr;
         width: 70vw;
-        justify-items: center;
-        justify-content: center;
-        align-items: center;
-        gap: 2rem;
-        .servico{
 
-        }
+        gap: 2rem;
         .servico{
             display: grid;
             border-radius: 1rem;

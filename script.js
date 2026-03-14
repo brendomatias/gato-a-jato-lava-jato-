@@ -13,7 +13,7 @@ setInterval(() =>{
     const statusAbertura = "STATUS ABERTURA";
     const div = document.querySelector(".statusAbertura");
     document.querySelector(".horario").textContent = hora
-    if(((agoraInt> 6 && agoraInt< 12)||(agoraInt> 12 &&agoraInt< 19)) && (data >0 && data <6)){
+    if(((agoraInt> 6 && agoraInt< 12)||(agoraInt> 12 &&agoraInt< 19)) && (data >0 && data <=6)){
         document.querySelector(".estatus").innerHTML = "ABERTO"
         div.style.background = "var(--azul)";
     }
