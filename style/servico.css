@@ -92,13 +92,12 @@
         display: grid;
         grid-template-columns: 1fr;
         width: 70vw;
-
         gap: 2rem;
         .servico{
             display: grid;
             border-radius: 1rem;
             grid-template-columns: 1fr 1fr;
-            width: 25rem;
+            width: 22rem;
             height: 10rem;
             .iconSerico{
                 width: 10rem;

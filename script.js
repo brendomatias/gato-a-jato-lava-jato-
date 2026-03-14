@@ -1,7 +1,14 @@
+links = [
+    "https://maps.app.goo.gl/aZhTJh2wRdKwLg7e6",
+    "https://www.instagram.com/gato_a_jato993/",
+    "https://wa.me/558399199839?text=Olá%20vim%20pelo%20site"
+
+]
 
 
-function localizacao(){
-    window.location.href = "https://maps.app.goo.gl/V5Uh69pjUpe3WD9JA"
+function localizacao(num){
+
+    window.location.href = links[num]
 }
 
 setInterval(() =>{

@@ -62,12 +62,12 @@
     width: 70%;
     height: 30rem;
     display: grid;
-        grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
     gap: 2rem;
     .contatosDiv{
-        
+        cursor:pointer !important;
         gap: 0.5rem;
         height: 10rem;
         width: 8rem;
