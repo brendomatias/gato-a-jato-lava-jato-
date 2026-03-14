@@ -30,4 +30,16 @@
     border-radius: 1rem;
 }
 
+@media (max-width: 800px) {
 
+.telabanner{
+    height: 20rem;
+}
+.banner{
+    height: 100%;
+    width: 20rem;
+    }  
+.imgDoBanner{
+    width: 20rem;
+} 
+}

@@ -79,3 +79,76 @@
     top: 50%;
     left: 43.5%;
 }
+
+@media (max-width: 800px) {
+.telasServico{
+    height: 80vh;
+    background:linear-gradient(black);
+    gap: 1rem;
+    padding: 2rem 0;
+    height: 100%;
+
+    .colunaServico{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 70vw;
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        .servico{
+
+        }
+        .servico{
+            display: grid;
+            border-radius: 1rem;
+            grid-template-columns: 1fr 1fr;
+            width: 25rem;
+            height: 10rem;
+            .iconSerico{
+                width: 10rem;
+                height: 10rem;
+            }
+            .descricaoServico{
+                gap: 0.5rem;
+                justify-content: center;
+                align-items: start;
+
+                li{
+                    font-size: 0.5rem;
+                }
+                p{
+                    margin: 0;
+                    font-size: 0.5rem;
+                }
+                .tituloServico{
+                    font-size: 1rem; 
+                }
+                .tipoDeVeiculo{
+                    height: 1rem;
+                    gap: 1rem;
+                }
+            }
+
+            
+        }
+    }
+}
+
+.azul{
+    color: var(--azul);
+    font-size: 2.5rem;
+    margin: -0.4rem;
+  
+
+}
+.servico::before{
+    content: "";
+    background: var(--azul);
+    width: 1rem;
+    height: 0.3rem;
+    position: absolute;
+    top: 50%;
+    left: 37.5%;
+}
+}

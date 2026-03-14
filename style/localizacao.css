@@ -46,3 +46,19 @@
  gap: 1rem;
 
 }
+
+
+@media (max-width: 800px) {
+    .ops{
+        height: 60%;
+        padding: 1rem 0;
+    }
+    .imagnsEndereço{
+        width: 8rem !important;
+        height: 8rem;
+    }
+    .infLocalizacao{
+        width: 90%;
+        height: 100%;
+    }
+}

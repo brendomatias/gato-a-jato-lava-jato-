@@ -54,3 +54,53 @@
         height: 32rem;
 }
 
+
+@media (max-width: 800px) {
+
+.contatos{
+
+    width: 70%;
+    height: 30rem;
+    display: grid;
+        grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    .contatosDiv{
+        
+        gap: 0.5rem;
+        height: 10rem;
+        width: 10rem;
+        transition: 0.1s;
+        border-radius: 1rem;
+        object-fit: cover;
+        background-color: white;
+        color: black;
+        padding: 1rem;
+
+        .iconContato{
+            width: 2rem;
+        }
+        .tituloContato{
+            color: black;
+            text-transform: uppercase;
+            font-size: 0.7rem;
+        }
+        .tituloDescricaoContato{
+            color: black;
+            font-size: 0.6rem;
+
+        }
+        .clickAqui{
+            font-size: 0.7rem;
+        }
+    }
+
+}
+.iconContatos:hover{
+        width: 20rem;
+        height: 32rem;
+}
+
+
+}
